@@ -1,0 +1,18 @@
+<?php
+
+namespace Illuminate\Database\Eloquent\Factories;
+
+/**
+ * @template TModel of \Illuminate\Database\Eloquent\Model
+ */
+class Factory
+{
+    /**
+     * Get the first record matching the attributes and update it or create it.
+     *
+     * @param  array<model-property<TModel>, mixed> $attributes
+     * @param  array<model-property<TModel>, mixed> $values
+     * @return TModel
+     */
+    public function updateOrCreate($attributes = [], $values = []);
+}
